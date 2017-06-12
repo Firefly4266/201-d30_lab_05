@@ -121,13 +121,12 @@ function multiplyArray(testArray){
   var current = 1;
   for(var i = 0; i < testArray.length; i++) {
     current = multiply(current, testArray[i])[0];
-  }
-  return[
+  }return[
     current,
     "The numbers " + testArray[0]+ "," + testArray[1] + "," + testArray[2] + " have a product of " + current + "."
   ];
 }
-console.log(multiplyArray(testArray));
+// console.log(multiplyArray(testArray));
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
 
